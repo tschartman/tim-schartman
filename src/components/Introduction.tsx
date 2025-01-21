@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from "./SocialLinks";
 
 const Introduction: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Introduction: React.FC = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100">
           Tim Schartman
         </h1>
+        <SocialLinks/>
         <p className="mt-4 text-gray-700 dark:text-gray-300 text-md md:text-lg max-w-md mx-auto">
           I'm a passionate Web Developer who enjoys thinking outside the box to
           find creative solutions. I specialize in web development, but you can
