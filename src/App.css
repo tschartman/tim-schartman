@@ -1,6 +1,52 @@
+/* Center and contain the root element */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  @apply h-full w-full text-center; /* Tailwind classes for cleaner styling */
+}
+
+/* Additional global styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #213547;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #242424;
+    --text-color: rgba(255, 255, 255, 0.87);
+  }
+}
+
+/* Apply the background and text colors dynamically */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* Utility styles */
+a {
+  @apply text-blue-500 hover:text-blue-400 no-underline; /* Tailwind for links */
+}
+
+button {
+  @apply rounded-lg border px-4 py-2 text-sm font-medium shadow-md transition-colors;
+  background-color: var(--bg-color);
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+
+button:hover {
+  border-color: var(--text-color);
+  background-color: var(--bg-color);
+  @apply text-blue-500;
 }
