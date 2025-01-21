@@ -3,13 +3,13 @@ import { motion } from "motion/react"
 const timelineData = [
   { 
     title: "Application Developer (IC2)",
-    description: "Joined Oracle as Application Developer. Built and maintained the departments core platform tools including a configuration service that is used by utility companies to configure their products. Worked on database migrations, backend and frontend code for various webservices and libraries that communicate with the main application platform.",
+    description: "Joined Oracle as Application Developer. Built and maintained the departments core platform tools including a configuration service that is used by utility companies to configure their products. Worked on database migrations, backend and frontend code for various webservices and libraries that communicate with the platform.",
     period: "2022 - Current",
     company: 'Oracle',
     skills: ['React', 'NodeJS', 'MySQL', 'Jenkins', 'Knex', 'Sequelize', 'Ruby', 'Docker'] 
   },
   {
-    title: "Senior Associate software developer",
+    title: "Senior Associate Application Developer",
     description: "Began my first Job as an Associate Software Developer at Discover. Worked on a team that built and mainted a large call center application uising React and NodeJs. Got familiar with some new technology including GraphQL, Java Spring boot and microservice infastructure. Learned and implented micro front ends that could be used in multile applications as well as helped maintain a custom UI library similar to that of Material UI.",
     period: "2020 - 2022",
     company: 'Discover',
